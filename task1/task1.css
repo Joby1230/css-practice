@@ -1,0 +1,39 @@
+{
+    margin: 0;
+    padding: 0;
+}
+.comtainer
+{
+    position: relative;
+}
+.big
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    transform: translate(-50%,-50%);
+}
+.small
+{
+    float: left;
+
+    width: 30%;
+    margin: 1.66%;
+    padding: 15% 0;
+
+    border-radius: 10%;
+    background-color: rgb(232,131,13);
+}
+
+/*@media only screen and (min-width:1025px)
+{
+    .big
+    {
+        max-width: 400px;
+    }
+}*/
